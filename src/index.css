@@ -1,13 +1,68 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: rgb(148, 223, 255);
+  width : 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  width: 133px;
+  height: 133px;
+  font-size: 3rem;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.board{
+  width: 400px;
+  height: 400px !important;
+  background-color: white;
+  border: 10px solid rgb(0, 0, 0);
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.modalcontainer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal{
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 3px;
+  color: goldenrod;
+  background-color: aliceblue;
+  padding: 100px 20px;
+  box-sizing: border-box;
+}
+
+
+.modalbtn{
+  background-color: rgb(75, 177, 255);
+  font-size: 1.4rem;
+  border: 0px;
+  width: 200px;
+  height: 5vh;
+  border-radius: 5px;
 }
